@@ -1,6 +1,3 @@
-//
-// Created by Shubham Patil on 17/12/21.
-//
 
 #ifndef RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
 #define RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
@@ -10,8 +7,8 @@
 using namespace std;
 
 /**
- * A base class for all Rubik's Cube Model. There are various representation for Rubik's Cube.
- * Each one has it's own special ways of definitions. This class provides a shared functionality
+ * A base class for all Rubik's Cube models There are various representations of the Rubik's Cube.
+ * Each one has its own special ways of definitions. This class provides shared functionality
  * between all models.
  * We'll benchmark all models and observe which one is better for performance.
  */
@@ -50,7 +47,7 @@ public:
      * If Rubik's Cube face is pointing at you, then the row numbering starts from the
      * top to bottom, and column numbering starts from the left to right.
      * The rows and columns are 0-indexed.
-     * @param Face, row, and column index
+     * Face, row, and column index
      */
     virtual COLOR getColor(FACE face, unsigned row, unsigned col) const = 0;
 
