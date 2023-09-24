@@ -1,6 +1,3 @@
-//
-// Created by Lakshya Mittal on 26-12-2021.
-//
 
 #include "RubiksCube.h"
 
@@ -380,7 +377,7 @@ public:
         ret |= get5bitCorner(bottom_back_left);
         ret = ret << 5;
 
-//        Following was used for Testing / Printing
+//        used for Testing / Printing
 
 //        cout << top_front_right << " "; print5bitbin(get5bitCorner(top_front_right )); cout  << "\n";
 //        cout << top_front_left << " "; print5bitbin(get5bitCorner(top_front_left )); cout << "\n";
